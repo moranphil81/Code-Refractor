@@ -1,6 +1,4 @@
 
-
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -14,6 +12,7 @@
   
 /* Font white,font,text align background color */
   header {
+    margin: 10px;
     padding: 20px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
@@ -26,11 +25,11 @@
   h1 {
     
   text-align: center;
-  
-    display: inline-block;
-    font-size: 38px;
-    color: white;
-    text-align: center;
+  display: inline-block;
+  font-size: 38px;
+  color: white;
+  text-align: center;
+  margin: 20px;
   }
   
   
@@ -118,8 +117,9 @@
   .benefit-lead h3,
   .benefit-brand h3,
   .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
+
+    margin-bottom: 0px;
+    text-align:left;
   }
   
 
@@ -131,7 +131,7 @@
     max-width: 150px;
   }
 .di   
-{margin-bottom: 30px;
+{ margin-bottom: 30px;
 padding: 30px;
 height: 300px;
 font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -227,7 +227,7 @@ html {
 
 .aside {
   background-color: #33b5e5;
-  padding: 15px;
+  padding: 10px;
   color: #ffffff;
   text-align: center;
   font-size: 14px;
@@ -239,6 +239,6 @@ html {
   color: #ffffff;
   text-align: center;
   font-size: 12px;
-  padding: 15px;
+  padding: 10px;
 }
 
